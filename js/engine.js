@@ -169,15 +169,15 @@ var Engine = (function(global) {
                 for (col = 0; col < numCols; col++) {
                     ctx.drawImage(Resources.get(rowImages[row]), col * 101, row * 83);
                     // Text to display over the game board
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "#1c2331";
                     ctx.font = "40px Comic Sans MS";
                     ctx.textAlign = "center";
-                    ctx.fillText("Let's Play Frogger!", canvas.width/2, canvas.height/5.5);
-                    ctx.fillStyle = "red";
+                    ctx.fillText("Let's Play", canvas.width/2, canvas.height/5.5);
+                    ctx.fillStyle = "#1c2331";
                     ctx.font = "20px Comic Sans MS";
                     ctx.textAlign = "center";
                     ctx.fillText("Press Enter To Start", canvas.width/2, canvas.height/4);
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "#1c2331";
                     ctx.font = "16px Comic Sans MS";
                     ctx.textAlign = "center";
                     ctx.fillText("Use the arrow keys to move", canvas.width/2, canvas.height/3.3);
@@ -185,7 +185,7 @@ var Engine = (function(global) {
                     ctx.fillText("Difficulty increases when you reach water", canvas.width/2, canvas.height/2.75);
                     ctx.fillText("Collect hearts for extra lives", canvas.width/2, canvas.height/2.55);
                     ctx.fillText("Avoid the bugs to stay alive", canvas.width/2, canvas.height/2.37);
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "#1c2331";
                     ctx.font = "20px Comic Sans MS";
                     ctx.textAlign = "center";
                     ctx.fillText("Good Luck!", canvas.width/2, canvas.height/2.1);
@@ -243,11 +243,11 @@ var Engine = (function(global) {
                 for (col = 0; col < numCols; col++) {
                     ctx.drawImage(Resources.get(rowImages[row]), col * 101, row * 83);
                     // Text to display over the game board
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "#1c2331";
                     ctx.font = "40px Comic Sans MS";
                     ctx.textAlign = "center";
                     ctx.fillText("Game Over!", canvas.width/2, canvas.height/3);
-                    ctx.fillStyle = "red";
+                    ctx.fillStyle = "#1c2331";
                     ctx.font = "20px Comic Sans MS";
                     ctx.textAlign = "center";
                     ctx.fillText("Press Enter To Restart", canvas.width/2, canvas.height/2.6);
@@ -322,4 +322,3 @@ var Engine = (function(global) {
     global.reset = reset;
 
 })(this);
-
