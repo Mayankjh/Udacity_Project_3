@@ -10,7 +10,7 @@ Installation:
 * Navigate to where you unzipped the file or cloned the repository.
 * Double-click index.html to open the game in your browser.
 
-Or, point your browser to 
+Or, point your browser to  https://mayankjh.github.io/Udacity_Project_3/ to get the live experience.
 
 
 ## Gameplay:
